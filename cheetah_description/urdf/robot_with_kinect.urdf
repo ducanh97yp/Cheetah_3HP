@@ -365,15 +365,15 @@
   <link name="trunk">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <geometry>
-        <mesh filename="package://yobotics_description/meshes/trunk.STL" scale="1 1 1"/>
+        <geometry>
+        <mesh filename="file:///home/andy1/QRB_ws/install/cheetah_description/share/cheetah_description/meshes/trunk.STL" scale="1 1 1"/>
       </geometry>
       <material name="white_gray"/>
     </visual>
-    <collision>
+        <collision>
       <origin rpy="0 0 0" xyz="0 0 0.04592"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/trunk.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/trunk.STL" scale="1 1 1"/>
         <!-- <box size="${trunk_length} ${trunk_width} ${trunk_height}"/> -->
       </geometry>
     </collision>
@@ -397,14 +397,14 @@
     <visual>
       <origin rpy="3.14159265359 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/hip.STL" scale="1 1 1"/>
+                    <mesh filename="file:///home/andy1/QRB_ws/install/cheetah_description/share/cheetah_description/meshes/hip.STL" scale="1 1 1"/>
       </geometry>
       <material name="gold"/>
     </visual>
-    <collision>
+        <collision>
       <origin rpy="3.14159265359 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/hip.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/hip.STL" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -427,14 +427,14 @@
     <visual>
       <origin rpy="3.14159265359 3.14159265359 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/thigh.STL" scale="1 1 1"/>
+                    <mesh filename="file:///home/andy1/QRB_ws/install/cheetah_description/share/cheetah_description/meshes/thigh.STL" scale="1 1 1"/>
       </geometry>
       <material name="white_blue"/>
     </visual>
     <collision>
       <origin rpy="3.14159265359 3.14159265359 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/thigh.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/thigh.STL" scale="1 1 1"/>
       </geometry>
       <material name="white_blue"/>
     </collision>
@@ -459,14 +459,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/calf.STL" scale="1 1 1"/>
+                    <mesh filename="file:///home/andy1/QRB_ws/install/cheetah_description/share/cheetah_description/meshes/calf.STL" scale="1 1 1"/>
       </geometry>
       <material name="white_blue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/calf.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/calf.STL" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -485,14 +485,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/foot.STL" scale="1 1 1"/>
+                     <mesh filename="file:///home/andy1/QRB_ws/install/cheetah_description/share/cheetah_description/meshes/foot.STL" scale="1 1 1"/>
       </geometry>
       <material name="white_black"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/foot.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/foot.STL" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -545,14 +545,14 @@
     <visual>
       <origin rpy="3.14159265359 3.14159265359 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/hip.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/hip.STL" scale="1 1 1"/>
       </geometry>
       <material name="gold"/>
     </visual>
     <collision>
       <origin rpy="3.14159265359 3.14159265359 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/hip.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/hip.STL" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -575,14 +575,14 @@
     <visual>
       <origin rpy="3.14159265359 3.14159265359 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/thigh.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/thigh.STL" scale="1 1 1"/>
       </geometry>
       <material name="white_blue"/>
     </visual>
     <collision>
       <origin rpy="3.14159265359 3.14159265359 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/thigh.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/thigh.STL" scale="1 1 1"/>
       </geometry>
       <material name="white_blue"/>
     </collision>
@@ -607,14 +607,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/calf.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/calf.STL" scale="1 1 1"/>
       </geometry>
       <material name="white_blue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/calf.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/calf.STL" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -633,14 +633,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/foot.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/foot.STL" scale="1 1 1"/>
       </geometry>
       <material name="white_black"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/foot.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/foot.STL" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -693,14 +693,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/hip.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/hip.STL" scale="1 1 1"/>
       </geometry>
       <material name="gold"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/hip.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/hip.STL" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -723,14 +723,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/thigh.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/thigh.STL" scale="1 1 1"/>
       </geometry>
       <material name="white_blue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/thigh.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/thigh.STL" scale="1 1 1"/>
       </geometry>
       <material name="white_blue"/>
     </collision>
@@ -755,14 +755,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/calf.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/calf.STL" scale="1 1 1"/>
       </geometry>
       <material name="white_blue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/calf.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/calf.STL" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -781,14 +781,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/foot.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/foot.STL" scale="1 1 1"/>
       </geometry>
       <material name="white_black"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/foot.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/foot.STL" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -841,14 +841,14 @@
     <visual>
       <origin rpy="0 3.14159265359 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/hip.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/hip.STL" scale="1 1 1"/>
       </geometry>
       <material name="gold"/>
     </visual>
     <collision>
       <origin rpy="0 3.14159265359 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/hip.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/hip.STL" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -871,14 +871,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/thigh.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/thigh.STL" scale="1 1 1"/>
       </geometry>
       <material name="white_blue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/thigh.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/thigh.STL" scale="1 1 1"/>
       </geometry>
       <material name="white_blue"/>
     </collision>
@@ -903,14 +903,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/calf.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/calf.STL" scale="1 1 1"/>
       </geometry>
       <material name="white_blue"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/calf.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/calf.STL" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -929,14 +929,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/foot.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/foot.STL" scale="1 1 1"/>
       </geometry>
       <material name="white_black"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://yobotics_description/meshes/foot.STL" scale="1 1 1"/>
+        <mesh filename="package://cheetah_description/meshes/foot.STL" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>

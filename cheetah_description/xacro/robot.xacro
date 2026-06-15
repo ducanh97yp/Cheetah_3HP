@@ -2,10 +2,10 @@
 
 <robot name="yobotics_description" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-    <xacro:include filename="$(find yobotics_description)/xacro/const.xacro"/>
-    <xacro:include filename="$(find yobotics_description)/xacro/materials.xacro"/>
-    <xacro:include filename="$(find yobotics_description)/xacro/leg.xacro"/>
-    <xacro:include filename="$(find yobotics_description)/xacro/gazebo.xacro"/>
+    <xacro:include filename="$(find cheetah_description)/xacro/const.xacro"/>
+    <xacro:include filename="$(find cheetah_description)/xacro/materials.xacro"/>
+    <xacro:include filename="$(find cheetah_description)/xacro/leg.xacro"/>
+    <xacro:include filename="$(find cheetah_description)/xacro/gazebo.xacro"/>
 
     <!-- Debug mode will hung up the robot, use "true" or "false" to switch it. -->
 
@@ -29,15 +29,15 @@
     <link name="trunk_interia">
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
-            <geometry>
-                <mesh filename="package://yobotics_description/meshes/trunk.STL" scale="1 1 1"/>
-            </geometry>
+                <geometry>
+                    <mesh filename="package://cheetah_description/meshes/trunk.STL" scale="1 1 1"/>
+                </geometry>
             <material name="white_gray"/>
         </visual>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-               <!-- <mesh filename="package://yobotics_description/meshes/trunk.STL" scale="1 1 1"/> -->
+               <!-- <mesh filename="package://cheetah_description/meshes/trunk.STL" scale="1 1 1"/> -->
                <box size="${trunk_length} ${trunk_width} ${trunk_height}"/>
             </geometry>
         </collision>
@@ -102,5 +102,5 @@
         <origin rpy="0 0 0" xyz="${-leg_offset_x} ${leg_offset_y} 0"/>
     </xacro:leg>
 
-    <xacro:include filename="$(find yobotics_description)/xacro/accessories.urdf.xacro" />
+    <xacro:include filename="$(find cheetah_description)/xacro/accessories.urdf.xacro" />
 </robot>

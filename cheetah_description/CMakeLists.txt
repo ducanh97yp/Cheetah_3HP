@@ -7,9 +7,23 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(urdf_tutorial REQUIRED)
+find_package(xacro REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+
+install(
+  DIRECTORY urdf meshes xacro launch rviz 
+  DESTINATION share/${PROJECT_NAME}
+)
+
+# Ensure individual launch files are installed (fallback for some colcon layouts)
+install(FILES
+  launch/view_robot.launch.py
+  launch/view_urdf.launch
+  launch/description.launch
+  DESTINATION share/${PROJECT_NAME}/launch)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

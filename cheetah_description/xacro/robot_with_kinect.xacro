@@ -2,8 +2,8 @@
 
 <robot name="yobotics" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-	<xacro:include filename="$(find yobotics_description)/xacro/robot.xacro"/>
-	<xacro:include filename="$(find yobotics_description)/xacro/kinect.xacro" />
+	<xacro:include filename="$(find cheetah_description)/xacro/robot.xacro"/>
+	<xacro:include filename="$(find cheetah_description)/xacro/kinect.xacro" />
 
 	<!-- <xacro:property name="kinect_offset_x" value="0.12" /> -->
 	<xacro:property name="kinect_offset_x" value="0.25" />
